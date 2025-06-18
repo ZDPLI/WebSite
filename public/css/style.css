@@ -1,0 +1,72 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background: #f8f9fa;
+    color: #333;
+}
+
+header {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.nav-links li {
+    margin-left: 15px;
+}
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+.hero {
+    background: url('https://images.unsplash.com/photo-1580281657526-9e94b2cb7d11?auto=format&fit=crop&w=1050&q=80') center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+.hero-content h1 {
+    font-size: 2.5em;
+}
+.cta {
+    background: #fff;
+    color: #007bff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #007bff;
+    color: #fff;
+    margin-top: 40px;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+.contact-form label {
+    margin-bottom: 10px;
+}
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+}
+.success {
+    color: green;
+}
